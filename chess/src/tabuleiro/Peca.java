@@ -12,7 +12,7 @@ public class Peca {
     protected Tabuleiro getTabuleiro() {
         return tabuleiro;
     }
-
+    //eu nao sei q erro é esse
     public abstract boolean[][] movimentosPossiveis();
 
     public boolean movimentoPossivel(Posicao posicao) {
