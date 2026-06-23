@@ -3,11 +3,11 @@ import tabuleiro.Peca;
 import tabuleiro.Posicao;
 import tabuleiro.Tabuleiro;
 
-public abstract class PeçaXad extends Peca{
+public abstract class PecaXad extends Peca{
     private Cor cor;
     private int contadorMovimentos;
 
-    public PeçaXad(Tabuleiro tabuleiro, Cor cor) {
+    public PecaXad(Tabuleiro tabuleiro, Cor cor) {
         // Nesse caso, no nosso construtor, temos a utilzação do construtor da nossa superclasse (Peça)
         super(tabuleiro);
         this.cor = cor;
